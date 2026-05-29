@@ -45,7 +45,7 @@ func main() {
 
 		fmt.Print("Dans la zone vide du terminal il faut rentrer deux nombres et un opétateur pour taper quit pour quitter")
 		fmt.Scan(&a, &b, &op)
-
+		// on break la boucle si on tape quit (demandé dans la consigne)
 		if op == "quit" {
 			break
 		}
